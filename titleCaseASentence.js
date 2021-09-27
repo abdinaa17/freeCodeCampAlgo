@@ -1,4 +1,4 @@
-unction titleCase(str) {
+function titleCase(str) {
   // We turn the str into an arr to use the map method.
   const strArr = str.toLowerCase().split(' ')
 
