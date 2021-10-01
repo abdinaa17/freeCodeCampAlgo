@@ -8,7 +8,7 @@ For the purpose of this exercise, you should also capitalize connecting words li
 
 
 function titleCase(str) {
-  // We turn the str into an arr to use the map method.
+  // We lowercase all inputs and then turn the str into an arr to use the map method.
   const strArr = str.toLowerCase().split(' ')
 
   const strUpperCased = strArr.map((word)=> {
